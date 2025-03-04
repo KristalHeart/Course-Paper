@@ -1,0 +1,17 @@
+﻿<Window x:Class="Курсач.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Курсач"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        Background="#1B1116">
+    <Grid>
+        <Frame x:Name="MenuFrame" />
+        <Button Content="Игра против монстра" Margin="286,73,286,0" VerticalAlignment="Top" Height="63" RenderTransformOrigin="0.332,0.505" FontSize="20" Click="MonsterGame"/>
+        <Button Content="Игра против вора" Margin="286,177,286,0" VerticalAlignment="Top" Height="63" RenderTransformOrigin="0.332,0.505" FontSize="20" Click="RogueGame"/>
+        <Button Content="Игра против стража" Margin="286,279,286,0" VerticalAlignment="Top" Height="63" RenderTransformOrigin="0.332,0.505" FontSize="20" Click="GuardianGame"/>
+
+    </Grid>
+</Window>
